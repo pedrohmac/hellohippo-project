@@ -21,22 +21,22 @@ The volume of data provided didn't required tools or frameworks other than Pytho
 
 ### Steps
 
-    1. Install Dependencies
+1. Install Dependencies
 
-        Ensure you have Python and Pandas installed
+   Ensure you have Python and Pandas installed
 
-    2. Download datasets
+2. Download datasets
 
-        Download sample data (data.tar.gz) to the project root.
+   Download sample data (data.tar.gz) to the project root.
 
-    3. Run shell
+3. Run shell
 
-        Run the shell script `entrypoint.sh` located in the project root.
+   Run the shell script `entrypoint.sh` located in the project root.
 
-        ```
-        sh entrypoint.sh
-        ```
+   ```
+   sh entrypoint.sh
+   ```
 
-    4. Check resuts
+4. Check resuts
 
-        The results will be generated in the `outputs` directory located in the root directory.
+   The results will be generated in the `outputs` directory located in the root directory.
