@@ -6,9 +6,9 @@ This repository contains a simple solution to achieve the goals set for the data
 
 This application accepts three directories to gather data from, and then writes three files in the `outputs` directory.
 
-    - **metrics_output.json**: Contains count of claims, reverds, average unit price and total price.
-    - **chain_recommendations.json**: The top two chains that offer lower prices per drug unit.
-    - **most_common_quantity.json**: The top 5 most common quantities prescribed for each drug.
+- **metrics_output.json**: Contains count of claims, reverds, average unit price and total price.
+- **chain_recommendations.json**: The top two chains that offer lower prices per drug unit.
+- **most_common_quantity.json**: The top 5 most common quantities prescribed for each drug.
 
 ### Improvements
 
@@ -21,15 +21,15 @@ The volume of data provided didn't required tools or frameworks other than Pytho
 
 ### Steps
 
-    1. **Install Dependencies**
+    1. Install Dependencies
 
         Ensure you have Python and Pandas installed
 
-    2. **Download datasets**
+    2. Download datasets
 
         Download sample data (data.tar.gz) to the project root.
 
-    3. **Run shell script**
+    3. Run shell
 
         Run the shell script `entrypoint.sh` located in the project root.
 
@@ -37,6 +37,6 @@ The volume of data provided didn't required tools or frameworks other than Pytho
         sh entrypoint.sh
         ```
 
-    4. **Check resuts**
+    4. Check resuts
 
         The results will be generated in the `outputs` directory located in the root directory.
